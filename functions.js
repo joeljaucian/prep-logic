@@ -35,25 +35,31 @@ for(var i = 0; i < lotteryNumbers; i++){
   checkWinningNumber(currentLotteryNumber);
 }
 
-function makeCrazyLongString(string){
-  var outputString = "";
-  for(var i =0; i < 100; i++){
-    outputString = outputString.concat(string);
+function makeCrazyLongString(string){   var outputString = "";   for(var i =0;
+i < 100; i++){     outputString = outputString.concat(string);   } }
+/*makeCrazyLongString('taco'); Function - youGetTaco Write a function that
+takes a single String parameter called action. If the value passed into our
+function is eathave the function return the String value EAT TACOS. */
+function youGetTaco(action){
+  if(action === "eat"){
+    return "EATTACOS";
   }
-}
-/*makeCrazyLongString('taco');
-Function - youGetTaco
-Write a function that takes a single String parameter called action. If the value passed into our function is eathave the function return the String value EAT TACOS.
-*/
 
+}
+console.log(youGetTaco("eat")); 
 
 /*Function - isNumberGreaterThan
 Write a function that takes two variables of type Number called first and secondrespectively. Return true if the first number is greater than the second.*/
-
-
+function isNumberGreaterThan(first,second){
+  if( first > second) {
+    return true;}
+}
+console.log(isNumberGreaterThan(9,6));
 
 /*Function - isTrue
 Write a function that takes in a Boolean value named val and have the function return whether the value is true.*/
+
+
 
 /*Function - isFalse
 Write a function that takes in a Boolean value named val and have the function return whether the value is false.*/
