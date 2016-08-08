@@ -91,7 +91,14 @@ console.log(isEqual("Joel","Joyce"))
 
 /*Function - isNotEqual
 Write a function that takes two variables of type String called firstWord and secondWordrespectively. Return 'AWWWWRIGHT' if the two are not equal otherwise return 'Y U MATCH!'.*/
+function isNotEqual(firstWord, secondWord){
+  if ( firstWord !== secondWord){
+    return "NoMatch"}else{ return "YOU  MATCH"}
+}
 
+console.log(isNotEqual("Joel","Joel"))
+console.log(isNotEqual("Joel","Joyce"))
+console.log(isNotEqual("Joel","Joel"))
 
 /*Function - doubleEquals
 Write a function that takes two variables of type Boolean called first and secondrespectively. Return true if both values are true otherwise return false.*/
