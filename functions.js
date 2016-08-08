@@ -80,6 +80,13 @@ console.log(isFalse("Joyce"))
 
 /*Function - isEqual
 Write a function that takes two variables of type String called firstWord and secondWordrespectively. Return 'AWWWWRIGHT' if the two are equal otherwise return 'Y U NO MATCH!'.*/
+function isEqual(firstWord, secondWord){
+  if ( firstWord === secondWord){
+    return "AWWWWRIGHT"}else{ return "YOU NO MATCH"}
+  }
+console.log(isEqual("Joel","Joyce"))
+console.log(isEqual("Joel","Joel"))
+console.log(isEqual("Joel","Joyce"))
 
 
 /*Function - isNotEqual
