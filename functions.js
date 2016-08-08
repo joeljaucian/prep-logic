@@ -112,11 +112,25 @@ console.log('doubleEquals',doubleEquals(3<5,1<2));
 console.log('doubleEquals',doubleEquals("Joel","joel"));
 
 
+
 /*Function - totalOver30
 Write a function that takes three variables of type Number called first and second and third respectively. Return true if the sum of all values are greater than 30 otherwise return false.*/
 
+
+
+
 /*Function - totalUnderWhat
 Write a function that takes four variables of type Number called first and second and third and fourth respectively. Return true if the sum of first, second and third are less than fourth otherwise return false.*/
+function totalUnderWhat(first,second,third,fourth){
+  if (first + second + third < fourth){
+    return true;
+  }else{
+    return false;
+  }
+  }
+console.log(totalUnderWhat(10,20,30,100))
+console.log(totalUnderWhat(10,200,30,100))
+console.log(totalUnderWhat(10,2,30,100))
 
 
 /*Function - looptoNumber
