@@ -116,6 +116,15 @@ console.log('doubleEquals',doubleEquals("Joel","joel"));
 /*Function - totalOver30
 Write a function that takes three variables of type Number called first and second and third respectively. Return true if the sum of all values are greater than 30 otherwise return false.*/
 
+function totalOver30(first,second,third){
+  if (first + second + third > 30){
+    return true
+  }else{
+    return false
+  }
+}
+console.log(totalOver30(10,5,20))
+
 
 
 
@@ -135,15 +144,29 @@ console.log(totalUnderWhat(10,2,30,100))
 
 /*Function - looptoNumber
 Write a function that takes in a Number value named limit and have the function write a for loop that loops the number of times of limit and console.log each number as the loop executes.*/
-
-
-
+function looptoNumber(limit){
+  for (var i = 0; i<limit ; i++)
+    console.log("balut: " + i)
+}
+looptoNumber(9)
 /*Function - showEachValue
 Write a function that takes in a Array value named characters that has a sequence of single character String values and have the function write a for loop that loops for each number of elements in the Array and console.log each character as the loop executes.*/
+var word = ["a", "b", "c","d","e"];
+
+function showEachValue(characters){
+ for(var i = 0; i<characters.length; i++){
+  console.log(characters[i]);
+ }
+}
+showEachValue(word);
+showEachValue("balut");
 
 
 /*Function - createArrayFromString
 Write a function that takes a single variable of type String called word and write a for loop that creates an Array made up of each character in word except for A. We don't want no stinking A in our Array. Note: You will need to use the Array.push() method to complete this function.*/
+
+
+
 
 
 /*Function - greatSummator
